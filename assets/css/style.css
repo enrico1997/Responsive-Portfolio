@@ -8,9 +8,42 @@ body {
 
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
-/* general */
+/* sticky footer styling */
+/* http://ryanfait.com/html5-sticky-footer/ */
+html,
+body {
+  height: 100%;
+}
+.wrapper {
+  height: auto !important;
+  height: 100%;
+  min-height: 100%;
+  margin: 0 auto -105px;
+}
+footer,
+.push {
+  height: 105px;
+}
+/* end sticky footer styling */
+
+/* start hover styling */
+#logo:hover,
+input[type=submit]:hover {
+  background: #5e7f7e;
+}
+nav a:hover {
+  color: #5e7f7e;
+}
+.social:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+/* end hover styling */
+
+/* general formatting */
 
 .container {
   width: 100%;
