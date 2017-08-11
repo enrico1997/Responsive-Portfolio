@@ -262,6 +262,10 @@ input[type=submit] {
   nav {
     margin-right: 10%;
   }
+
+  .work {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -285,6 +289,10 @@ input[type=submit] {
   nav {
   float: right;
   margin-right: 5%;
+  }
+
+  .work {
+    width: 46%;
   }
 
 }
@@ -319,8 +327,8 @@ input[type=submit] {
     width: 90%;
   }
 
-  .work img {
-    float: left;
+  .work {
+    width: 100%;
   }
 }
 
